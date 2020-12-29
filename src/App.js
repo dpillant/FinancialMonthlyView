@@ -1,7 +1,8 @@
 import React from 'react';
+import Month from './components/Month/Month'
 
 const App = () => {
-  return <h1>A React App!</h1>;
+  return <Month />;
 };
 
 export default App;
