@@ -1,0 +1,35 @@
+.month-head-table{
+    width:100%;
+    border: 0px;
+}
+
+.month-head-back-link{
+    text-align: left;
+    text-decoration: underline;
+    border: 0px;
+}
+.month-head-next-link{
+    text-align: right;
+    text-decoration: underline;
+    border: 0px;
+}
+
+.month-head-current{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    border: 0px;
+}
+.month-head-div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 95%;
+}
+.month-head-button-div{
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left:85%;
+    padding-right: 0px;
+    width: 95%;
+}
