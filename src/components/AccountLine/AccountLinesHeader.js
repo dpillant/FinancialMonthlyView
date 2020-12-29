@@ -9,6 +9,7 @@ const AccountLinesHeader=() =>{
             <th class="label">Libellé</th>
             <th class="credit">Crédit</th>
             <th class="debit">Débit</th>
+            <th class="action">&nbsp;</th>
         </thead>
     );
 };

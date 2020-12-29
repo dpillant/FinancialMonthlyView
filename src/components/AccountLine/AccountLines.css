@@ -6,7 +6,7 @@ td {
 }
 
 .date {
-    width: 20%;
+    width: 15%;
     text-align: center;
 }
 
@@ -22,4 +22,8 @@ td {
 .debit {
     width: 20%;
     text-align: center;
+}
+.action{
+    width: 5%;
+    border: thin solid #000000;
 }

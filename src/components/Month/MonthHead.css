@@ -29,7 +29,16 @@
 .month-head-button-div{
     margin: 0 auto;
     padding-top: 10px;
-    padding-left:85%;
+    padding-left: 60%;
     padding-right: 0px;
     width: 95%;
+}
+.month-head-button-table{
+    border: 0px;
+    width: 100ù;   
+}
+.month-head-button-td{
+    text-align: right;
+    border: 0px;
+    padding: 0px;
 }

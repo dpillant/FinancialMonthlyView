@@ -7,7 +7,16 @@ const MonthHead=()=>{
     return (
         <div>
         <div class="month-head-button-div">
-            <Button type="submit">Se déconnecter</Button>
+            <table class="month-head-button-table">
+                <tr>
+                    <td class="month-head-button-td">
+                        <Button type="submit">Nouvelle ligne</Button>
+                    </td>
+                    <td class="month-head-button-td">
+                        <Button type="submit">Se déconnecter</Button>
+                    </td> 
+                </tr>
+            </table>
         </div>
         <div class="month-head-div">
              <table class="month-head-table">
