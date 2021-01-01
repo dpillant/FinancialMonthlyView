@@ -2,8 +2,8 @@ import React from 'react';
 import Button from '../Button/Button';
 import './MonthHead.css';
 
-const MonthHead=()=>{
-
+const MonthHead=props=>{
+    
     return (
         <div>
         <div class="month-head-button-div">
@@ -21,9 +21,9 @@ const MonthHead=()=>{
         <div class="month-head-div">
              <table class="month-head-table">
                  <tr>
-                     <td class="month-head-back-link">Mois précédent</td>
-                     <td class="month-head-current">Janvier 2021</td>
-                     <td class="month-head-next-link">Mois prochain</td>
+                     <td class="month-head-back-link">{props.previousLabelMonth}</td>
+                     <td class="month-head-current">{props.currentLabelMonth}</td>
+                     <td class="month-head-next-link">{props.nextLabelMonth}</td>
                  </tr>
             </table>   
         </div>
