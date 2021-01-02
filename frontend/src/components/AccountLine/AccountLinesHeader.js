@@ -5,11 +5,13 @@ import './AccountLinesHeader.css'
 const AccountLinesHeader=() =>{
     return (
         <thead className="accountLinesHeader-th">
-            <th class="date">Date</th>
-            <th class="label">Libellé</th>
-            <th class="credit">Crédit</th>
-            <th class="debit">Débit</th>
-            <th class="action">&nbsp;</th>
+            <tr>
+            <td className="date-header">Date</td>
+            <td className="label-header">Libellé</td>
+            <td className="credit-header">Crédit</td>
+            <td className="debit-header">Débit</td>
+            <td className="action-header">&nbsp;</td>
+            </tr>
         </thead>
     );
 };

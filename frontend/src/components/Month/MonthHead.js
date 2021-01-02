@@ -6,24 +6,24 @@ const MonthHead=props=>{
     
     return (
         <div>
-        <div class="month-head-button-div">
-            <table class="month-head-button-table">
+        <div className="month-head-button-div">
+            <table className="month-head-button-table">
                 <tr>
-                    <td class="month-head-button-td">
+                    <td className="month-head-button-td">
                         <Button type="submit">Nouvelle ligne</Button>
                     </td>
-                    <td class="month-head-button-td">
+                    <td className="month-head-button-td">
                         <Button type="submit">Se déconnecter</Button>
                     </td> 
                 </tr>
             </table>
         </div>
-        <div class="month-head-div">
-             <table class="month-head-table">
+        <div className="month-head-div">
+             <table className="month-head-table">
                  <tr>
-                     <td class="month-head-back-link">{props.previousLabelMonth}</td>
-                     <td class="month-head-current">{props.currentLabelMonth}</td>
-                     <td class="month-head-next-link">{props.nextLabelMonth}</td>
+                     <td className="month-head-back-link">{props.previousLabelMonth}</td>
+                     <td className="month-head-current">{props.currentLabelMonth}</td>
+                     <td className="month-head-next-link">{props.nextLabelMonth}</td>
                  </tr>
             </table>   
         </div>

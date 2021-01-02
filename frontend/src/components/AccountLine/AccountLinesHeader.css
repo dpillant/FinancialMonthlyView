@@ -5,28 +5,37 @@
     width:80%;
     padding: 5px;
     color: white;
+    
 }
 
-.date {
+.date-header {
+    font-family: monospace;
     width: 15%;
     border: thin solid #000000;
+    background-color: #313f8e;
 }
 
-.label {
+.label-header {
+    font-family: monospace;
     width: 40%;
     border: thin solid #000000;
+    background-color: #313f8e;
 }
 
-.credit {
+.credit-header {
+    font-family: monospace;
     width: 20%;
     border: thin solid #000000;
+    background-color: #313f8e;
 }
 
-.debit {
+.debit-header {
+    font-family: monospace;
     width: 20%;
     border: thin solid #000000;
+    background-color: #313f8e;
 }
-.action{
+.action-header{
     width: 5%;
     border: thin solid white;
     background-color: white;

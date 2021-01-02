@@ -3,12 +3,16 @@ import './MonthBody.css';
 import AccountLines from '../AccountLine/AccountLines';
 import AccountLinesHeader from '../AccountLine/AccountLinesHeader';
 
-const MonthBody=()=>{
+const MonthBody=props=>{
+   
+    const accountLines =props.accountLines;
+    console.log("MonthBody.js",accountLines);
     return (
-        <div class="month-body-div">
-            <table class="month-body-table">
+       
+        <div className="month-body-div">
+            <table className="month-body-table">
                     <AccountLinesHeader />
-                    <AccountLines />
+                    <AccountLines accountLines={accountLines}/>
             </table>
         </div>
     );
