@@ -3,12 +3,12 @@ import TotalAmountHeader from '../TotalAmount/TotalAmountHeader';
 import TotalAmountLine from '../TotalAmount/TotalAmountLine';
 import './MonthFooter.css';
 
-const MonthFooter =()=>{
+const MonthFooter = props =>{
     return (
-    <div class="month-footer-div">
-        <table class="month-footer-table">
+    <div className="month-footer-div">
+        <table className="month-footer-table">
             <TotalAmountHeader />
-            <TotalAmountLine />
+            <TotalAmountLine monthlyDebit={props.monthlyDebit} monthlyCredit={props.monthlyCredit} monthlyExtraDebit={props.monthlyExtraDebit} monthlyExtraCredit={props.monthlyExtraCredit}/>
         </table>
     </div>
     );

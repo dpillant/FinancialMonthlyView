@@ -31,12 +31,13 @@ const Month = props =>{
 
     const accountLines =props.accountLines;
     
+    const totalAmount=props.totalAmount;
     
     return (
         <div>
         <MonthHead previousLabelMonth={labelOfPrevMonth} currentLabelMonth={labelOfCurrentMonth} nextLabelMonth={labelOfNextMonth}/>
         <MonthBody accountLines={accountLines}/>
-        <MonthFooter />
+        <MonthFooter monthlyDebit={totalAmount.monthlyDebit} monthlyCredit={totalAmount.monthlyCredit} monthlyExtraDebit={totalAmount.monthlyExtraDebit} monthlyExtraCredit={totalAmount.monthlyExtraCredit}/>
         </div>
     );
 };
